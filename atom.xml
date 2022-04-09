@@ -13,9 +13,9 @@
         <id>http://example.com/2020/07/12/vscode%E8%AE%BE%E7%BD%AEFira_Code%E5%AD%97%E4%BD%93%E5%8F%8A%E6%94%B9%E5%8F%98%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E3%80%81%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/</id>
         <title></title>
         <link rel="alternate" href="http://example.com/2020/07/12/vscode%E8%AE%BE%E7%BD%AEFira_Code%E5%AD%97%E4%BD%93%E5%8F%8A%E6%94%B9%E5%8F%98%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E3%80%81%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/"/>
-        <content type="html">&lt;h2 id=&#34;vscode设置fira_code字体及改变编辑器字体-背景颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vscode设置fira_code字体及改变编辑器字体-背景颜色&#34;&gt;#&lt;/a&gt; vscode 设置 Fira_Code 字体及改变编辑器字体、背景颜色&lt;/h2&gt;
+        <content type="html">&lt;h1 id=&#34;vscode设置fira_code字体及改变编辑器字体-背景颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vscode设置fira_code字体及改变编辑器字体-背景颜色&#34;&gt;#&lt;/a&gt; vscode 设置 Fira_Code 字体及改变编辑器字体、背景颜色&lt;/h1&gt;
 &lt;hr /&gt;
-&lt;h3 id=&#34;一-设置fira_code字体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-设置fira_code字体&#34;&gt;#&lt;/a&gt; 一、设置 Fira_Code 字体&lt;/h3&gt;
+&lt;h2 id=&#34;一-设置fira_code字体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-设置fira_code字体&#34;&gt;#&lt;/a&gt; 一、设置 Fira_Code 字体&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;1. 下载字体&lt;/strong&gt;&lt;br /&gt;
 这里给出 github 下载链接，点击链接后在 README.md 中的 Download &amp;amp; Install 一栏中即可下载，链接中也包括字体示例及介绍，可自行查看。&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvbnNreS9GaXJhQ29kZQ==&#34;&gt;Fira_Code 字体下载&lt;/span&gt;&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;li&gt;如果不想使用连字，则将 true 改为 false (什么是连字可自行百度，这里举个例子，c 语言中！= 使用连字后则会显示≠)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
-&lt;h3 id=&#34;二-设置字体颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-设置字体颜色&#34;&gt;#&lt;/a&gt; 二、设置字体颜色&lt;/h3&gt;
+&lt;h2 id=&#34;二-设置字体颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-设置字体颜色&#34;&gt;#&lt;/a&gt; 二、设置字体颜色&lt;/h2&gt;
 &lt;p&gt;可以通过更换主题来改变字体颜色，这里推荐几款比较经典的主题，供大家选择。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;One Dark Pro Italic&lt;/li&gt;
@@ -43,7 +43,7 @@
 &lt;/ul&gt;
 &lt;p&gt;直接在 vscode 左侧 Extensions 中搜索安装即可使用，如果想要尝试其他主题，可输入 One 进行搜索，众多主题总有一款适合你。&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h3 id=&#34;三-设置编辑器背景颜色及光标所在行的颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-设置编辑器背景颜色及光标所在行的颜色&#34;&gt;#&lt;/a&gt; 三、设置编辑器背景颜色及光标所在行的颜色&lt;/h3&gt;
+&lt;h2 id=&#34;三-设置编辑器背景颜色及光标所在行的颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-设置编辑器背景颜色及光标所在行的颜色&#34;&gt;#&lt;/a&gt; 三、设置编辑器背景颜色及光标所在行的颜色&lt;/h2&gt;
 &lt;p&gt;之前习惯用黑色背景，可是改变主题后背景往往会发生改变，可以通过设置自定义背景颜色。&lt;br /&gt;
 按照上面的步骤打开 settings.json，添加以下设置：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;   
@@ -66,7 +66,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;下面放出效果图，读者可自定义自己喜欢的颜色。&lt;br /&gt;
 &lt;img data-src=&#34;https://s1.ax1x.com/2020/07/12/U8tIPJ.png&#34; alt=&#34;U8tIPJ.png&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;end&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; END！&lt;/h2&gt;
+&lt;p&gt;END！&lt;/p&gt;
+&lt;hr /&gt;
 </content>
         <updated>2020-07-12T07:41:42.590Z</updated>
     </entry>
