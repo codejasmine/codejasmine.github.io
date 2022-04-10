@@ -10,16 +10,14 @@
         </author>
         <description></description>
         <language>en</language>
-        <pubDate>Sun, 12 Jul 2020 15:41:42 +0800</pubDate>
-        <lastBuildDate>Sun, 12 Jul 2020 15:41:42 +0800</lastBuildDate>
+        <pubDate>Sat, 09 Apr 2022 22:11:07 +0800</pubDate>
+        <lastBuildDate>Sat, 09 Apr 2022 22:11:07 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2020/07/12/vscode%E8%AE%BE%E7%BD%AEFira_Code%E5%AD%97%E4%BD%93%E5%8F%8A%E6%94%B9%E5%8F%98%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E3%80%81%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/</guid>
-            <title></title>
-            <link>http://example.com/2020/07/12/vscode%E8%AE%BE%E7%BD%AEFira_Code%E5%AD%97%E4%BD%93%E5%8F%8A%E6%94%B9%E5%8F%98%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E3%80%81%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/</link>
-            <pubDate>Sun, 12 Jul 2020 15:41:42 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;vscode设置fira_code字体及改变编辑器字体-背景颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vscode设置fira_code字体及改变编辑器字体-背景颜色&#34;&gt;#&lt;/a&gt; vscode 设置 Fira_Code 字体及改变编辑器字体、背景颜色&lt;/h1&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;一-设置fira_code字体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-设置fira_code字体&#34;&gt;#&lt;/a&gt; 一、设置 Fira_Code 字体&lt;/h2&gt;
+            <guid isPermalink="true">http://example.com/2022/04/09/vscode%E8%AE%BE%E7%BD%AEFira-Code%E5%AD%97%E4%BD%93%E5%8F%8A%E6%94%B9%E5%8F%98%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E3%80%81%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/</guid>
+            <title>vscode设置Fira-Code字体及改变编辑器字体、背景颜色</title>
+            <link>http://example.com/2022/04/09/vscode%E8%AE%BE%E7%BD%AEFira-Code%E5%AD%97%E4%BD%93%E5%8F%8A%E6%94%B9%E5%8F%98%E7%BC%96%E8%BE%91%E5%99%A8%E5%AD%97%E4%BD%93%E3%80%81%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/</link>
+            <pubDate>Sat, 09 Apr 2022 22:11:07 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;设置fira_code字体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置fira_code字体&#34;&gt;#&lt;/a&gt; 设置 Fira_Code 字体&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;1. 下载字体&lt;/strong&gt;&lt;br /&gt;
 这里给出 github 下载链接，点击链接后在 README.md 中的 Download &amp;amp; Install 一栏中即可下载，链接中也包括字体示例及介绍，可自行查看。&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3RvbnNreS9GaXJhQ29kZQ==&#34;&gt;Fira_Code 字体下载&lt;/span&gt;&lt;/p&gt;
@@ -29,15 +27,12 @@
  打开 vscode，点击左下角齿轮形状图标，选择 settings，得到下图所示界面：&lt;br /&gt;
 &lt;img data-src=&#34;https://s1.ax1x.com/2020/07/12/U8toG9.jpg&#34; alt=&#34;U8toG9.jpg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;根据上图箭头所示依次点击 Font，Edit in settings.json，添加如下代码：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;quot;editor.fontFamily&amp;quot;: &amp;quot;&#39;Fira Code&#39;,Menlo, Monaco, &#39;Courier New&#39;, monospace&amp;quot;,
-&amp;quot;editor.fontLigatures&amp;quot;: true,
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;figcaption data-lang=&#34;JSON&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;&#34;editor.fontFamily&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#39;Fira Code&#39;,Menlo, Monaco, &#39;Courier New&#39;, monospace&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;&#34;editor.fontLigatures&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
 &lt;li&gt;注：如果添加到 {} 里的最后面，则需去掉 true 后面的逗号&lt;/li&gt;
 &lt;li&gt;如果不想使用连字，则将 true 改为 false (什么是连字可自行百度，这里举个例子，c 语言中！= 使用连字后则会显示≠)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
-&lt;h2 id=&#34;二-设置字体颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-设置字体颜色&#34;&gt;#&lt;/a&gt; 二、设置字体颜色&lt;/h2&gt;
+&lt;h1 id=&#34;设置字体颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置字体颜色&#34;&gt;#&lt;/a&gt; 设置字体颜色&lt;/h1&gt;
 &lt;p&gt;可以通过更换主题来改变字体颜色，这里推荐几款比较经典的主题，供大家选择。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;One Dark Pro Italic&lt;/li&gt;
@@ -47,30 +42,12 @@
 &lt;/ul&gt;
 &lt;p&gt;直接在 vscode 左侧 Extensions 中搜索安装即可使用，如果想要尝试其他主题，可输入 One 进行搜索，众多主题总有一款适合你。&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h2 id=&#34;三-设置编辑器背景颜色及光标所在行的颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-设置编辑器背景颜色及光标所在行的颜色&#34;&gt;#&lt;/a&gt; 三、设置编辑器背景颜色及光标所在行的颜色&lt;/h2&gt;
+&lt;h1 id=&#34;设置编辑器背景颜色及光标所在行的颜色&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置编辑器背景颜色及光标所在行的颜色&#34;&gt;#&lt;/a&gt; 设置编辑器背景颜色及光标所在行的颜色&lt;/h1&gt;
 &lt;p&gt;之前习惯用黑色背景，可是改变主题后背景往往会发生改变，可以通过设置自定义背景颜色。&lt;br /&gt;
 按照上面的步骤打开 settings.json，添加以下设置：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;   
-    &amp;quot;workbench.colorCustomizations&amp;quot;: &amp;#123;                              //覆盖当前所选颜色主题的颜色
-       
-        &amp;quot;editor.background&amp;quot;: &amp;quot;#030202&amp;quot;,                             //编辑器背景色
-
-        &amp;quot;editor.selectionBackground&amp;quot;: &amp;quot;#6b5244&amp;quot;,                    //用户选中代码段的颜色 
-       
-        &amp;quot;editor.findMatchBackground&amp;quot;: &amp;quot;#ff0000&amp;quot;,                    //当前搜索匹配的颜色
-       
-        &amp;quot;editor.findMatchHighlightBackground&amp;quot;: &amp;quot;#ff00ff&amp;quot;,           //其他搜索匹配项的颜色
-    
-        &amp;quot;editor.findRangeHighlightBackground&amp;quot;: &amp;quot;#ff9900&amp;quot;,           //限制搜索范围的颜色
-    
-        &amp;quot;editor.lineHighlightBackground&amp;quot;: &amp;quot;#48314e&amp;quot;,                //光标所在行高亮内容的背景颜色
-      
-        &amp;quot;editor.lineHighlightBorder&amp;quot;: &amp;quot;#704b36&amp;quot;                     //光标所在行四周边框的背景颜色
-    &amp;#125;,
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;下面放出效果图，读者可自定义自己喜欢的颜色。&lt;br /&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;figcaption data-lang=&#34;JSON&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;&#34;workbench.colorCustomizations&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;                     &lt;span class=&#34;token comment&#34;&gt;// 覆盖当前所选颜色主题的颜色&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;editor.background&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;#030202&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;                    &lt;span class=&#34;token comment&#34;&gt;// 编辑器背景色&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;editor.selectionBackground&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;#6b5244&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;           &lt;span class=&#34;token comment&#34;&gt;// 用户选中代码段的颜色 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;editor.findMatchBackground&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;#ff0000&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;           &lt;span class=&#34;token comment&#34;&gt;// 当前搜索匹配的颜色&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;editor.findMatchHighlightBackground&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;#ff00ff&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 其他搜索匹配项的颜色&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;editor.findRangeHighlightBackground&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;#ff9900&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 限制搜索范围的颜色&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;editor.lineHighlightBackground&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;#48314e&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;       &lt;span class=&#34;token comment&#34;&gt;// 光标所在行高亮内容的背景颜色&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;editor.lineHighlightBorder&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;#704b36&#34;&lt;/span&gt;            &lt;span class=&#34;token comment&#34;&gt;// 光标所在行四周边框的背景颜色&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;下面放出效果图，读者可自定义自己喜欢的颜色。&lt;br /&gt;
 &lt;img data-src=&#34;https://s1.ax1x.com/2020/07/12/U8tIPJ.png&#34; alt=&#34;U8tIPJ.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;END！&lt;/p&gt;
+&lt;p&gt;&amp;lt;center&amp;gt;END&amp;lt;/center&amp;gt;&lt;/p&gt;
 &lt;hr /&gt;
  ]]></description>
         </item>
